@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view){
             TextView text = findViewById(R.id.textView2);
             text.setText("次のページ");
+
         }
     }
 }
