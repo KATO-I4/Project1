@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view){
             TextView text = findViewById(R.id.textViewMessage);
-            text.setText("こんにちは androidだよねー！");
+            text.setText("こんにちは androidだよね！");
         }
     }
 }
