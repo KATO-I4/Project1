@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     class MyOnClickListener implements View.OnClickListener{
         @Override
         public void onClick(View view){
-            TextView text = findViewById(R.id.textViewMessage);
-            text.setText("こんにちは androidだよね！");
+            TextView text = findViewById(R.id.textView2);
+            text.setText("次のページ");
         }
     }
 }
