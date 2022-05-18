@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+//画面遷移用
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,18 +16,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button=findViewById(R.id.buttonChangeMessage);
-        button.setOnClickListener(new MyOnClickListener());
+        //画面遷移用のボタン
+        Button changeButton = findViewById(R.id.change_btn1);
 
+        //ボタン押下時
+        changeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //reviewupに画面遷移
+                Intent intent = new Intent(getApplication(), reviewup.class);
+                startActivity(intent);
+            }
+
+        });
 
     }
 
-    class MyOnClickListener implements View.OnClickListener{
-        @Override
-        public void onClick(View view){
-            TextView text = findViewById(R.id.textView2);
-            text.setText("次のページ");
-
-        }
-    }
 }
