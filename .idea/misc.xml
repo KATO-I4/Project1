@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/contact.xml" value="0.1" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/ranking.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/reviewinspection.xml" value="0.1" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/reviewup.xml" value="0.264" />
       </map>
     </option>
