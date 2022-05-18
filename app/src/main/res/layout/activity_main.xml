@@ -12,7 +12,7 @@
         android:layout_height="57dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="332dp"
-        android:text="お店・場所を選ぶ"
+        android:text="行き先を選ぶ"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
