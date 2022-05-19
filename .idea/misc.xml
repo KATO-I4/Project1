@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/reviewup.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/ranking.xml" value="0.264" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/reviewinspection.xml" value="0.1" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/reviewup.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/activity_main.xml" value="0.4" />
       </map>
     </option>
   </component>
