@@ -24,7 +24,7 @@
         android:layout_width="348dp"
         android:layout_height="57dp"
         android:layout_marginTop="18dp"
-        android:text="店舗のおススメ"
+        android:text="店舗をおススメする"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@+id/change_btn1"
         app:layout_constraintStart_toStartOf="@+id/change_btn1"

@@ -1,0 +1,51 @@
+package com.example.test1;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+//入力チェック用
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class Recommend  extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        //contactレイアウトをセット
+        setContentView(R.layout.recommend);
+
+        //入力チェック
+        /*
+        final EditText editText = findViewById(R.id.edit_text);
+
+        editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean flag) {
+                if(!flag){
+                    String str = editText.getText().toString().trim();
+                    if(!str.matches("^[0-2]{2}[0-9]{2}[0-1]{1}[1-9]{1}[0-3]{1}[1-9]{1}$")){
+                        Toast toast = Toast.makeText(Contact.this,"正しい入力値を入れてください",Toast.LENGTH_LONG);
+                        toast.show();
+                    }
+                }
+            }
+        });
+        */
+
+        //戻る
+
+        Button returnButton = findViewById(R.id.return_btn);
+        returnButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+    }
+
+}

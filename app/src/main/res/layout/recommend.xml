@@ -94,7 +94,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_text3"
-        android:text="お問い合わせ内容"
+        android:text="おすすめしたいお店の名前"
         />
     <EditText
         android:id="@+id/edit_text4"
@@ -105,9 +105,80 @@
         app:layout_constraintTop_toBottomOf="@+id/text5"
         android:inputType="text"
         android:background="@drawable/edittext_flame"
-        android:hint="イタリアンだと思ったらメキシコ料理でした。"
+        android:hint="鉄板焼きDo"
         android:paddingLeft="5dp"
         />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text4"
+        android:text="お店のURL"
+        />
+    <EditText
+        android:id="@+id/edit_text5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text6"
+        android:inputType="text"
+        android:background="@drawable/edittext_flame"
+        android:hint="https:"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text5"
+        android:text="お店の電話番号"
+        />
+    <EditText
+        android:id="@+id/edit_text6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text7"
+        android:inputType="number"
+        android:background="@drawable/edittext_flame"
+        android:hint="09012345678"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/text8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text6"
+        android:text="おすすめポイント"
+        />
+    <EditText
+        android:id="@+id/edit_text7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8"
+        android:inputType="text"
+        android:background="@drawable/edittext_flame"
+        android:hint="目の前で焼きあがる黒毛和牛に舌鼓！"
+        android:paddingLeft="5dp"
+        />
+
 
     <Button
         android:id="@+id/return_btn"
@@ -118,7 +189,7 @@
         android:text="戻る"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5" />
+        app:layout_constraintTop_toBottomOf="@+id/text8" />
 
 
 
