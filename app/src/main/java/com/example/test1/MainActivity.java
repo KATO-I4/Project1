@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //reviewupに画面遷移
-                Intent intent = new Intent(getApplication(), reviewup.class);
+                Intent intent = new Intent(getApplication(), Reviewup.class);
                 startActivity(intent);
             }
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         changeButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Rankingに画面遷移
+                //Contactに画面遷移
                 Intent intent = new Intent(getApplication(), Contact.class);
                 startActivity(intent);
             }
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         changeButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Rankingに画面遷移
+                //Reviewinspectionに画面遷移
                 Intent intent = new Intent(getApplication(), Reviewinspection.class);
                 startActivity(intent);
             }
