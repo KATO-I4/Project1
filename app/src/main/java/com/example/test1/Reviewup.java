@@ -6,14 +6,14 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Ranking extends AppCompatActivity {
+public class Reviewup  extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //rankingレイアウトをセット
-        setContentView(R.layout.ranking);
+        //reviewupレイアウトをセット
+        setContentView(R.layout.reviewup);
 
         Button returnButton = findViewById(R.id.return_btn);
         returnButton.setOnClickListener(new View.OnClickListener() {

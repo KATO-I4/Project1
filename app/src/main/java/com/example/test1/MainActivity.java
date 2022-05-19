@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //レビュー投稿への画面遷移用のボタン
-        Button changeButton = findViewById(R.id.change_btn1);
+        Button changeButton1 = findViewById(R.id.change_btn1);
 
         //ボタン押下時
-        changeButton.setOnClickListener(new View.OnClickListener() {
+        changeButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //reviewupに画面遷移
-                Intent intent = new Intent(getApplication(), reviewup.class);
+                Intent intent = new Intent(getApplication(), Reviewup.class);
                 startActivity(intent);
             }
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         changeButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Rankingに画面遷移
+                //Contactに画面遷移
                 Intent intent = new Intent(getApplication(), Contact.class);
                 startActivity(intent);
             }
@@ -65,12 +65,27 @@ public class MainActivity extends AppCompatActivity {
         changeButton4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Rankingに画面遷移
+                //Reviewinspectionに画面遷移
                 Intent intent = new Intent(getApplication(), Reviewinspection.class);
                 startActivity(intent);
             }
 
         });
+
+        //おすすめへの画面遷移用のボタン
+        Button changeButton = findViewById(R.id.change_btn);
+
+        //ボタン押下時
+        changeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Recommendに画面遷移
+                Intent intent = new Intent(getApplication(), Recommend.class);
+                startActivity(intent);
+            }
+
+        });
+
     }
 
 }

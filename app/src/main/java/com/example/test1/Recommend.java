@@ -10,14 +10,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Contact  extends AppCompatActivity {
+public class Recommend  extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //contactレイアウトをセット
-        setContentView(R.layout.contact);
+        setContentView(R.layout.recommend);
 
         //入力チェック
         /*
