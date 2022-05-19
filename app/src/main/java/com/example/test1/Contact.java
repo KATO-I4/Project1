@@ -12,7 +12,7 @@ public class Contact  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //activity_subレイアウトをセット
+        //contactレイアウトをセット
         setContentView(R.layout.contact);
 
         Button returnButton = findViewById(R.id.return_btn);

@@ -12,7 +12,7 @@ public class Ranking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //activity_subレイアウトをセット
+        //rankingレイアウトをセット
         setContentView(R.layout.ranking);
 
         Button returnButton = findViewById(R.id.return_btn);
