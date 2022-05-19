@@ -12,7 +12,7 @@ public class Reviewinspection  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //activity_subレイアウトをセット
+        //reviewinspectionレイアウトをセット
         setContentView(R.layout.reviewinspection);
 
         Button returnButton = findViewById(R.id.return_btn);

@@ -12,7 +12,7 @@ public class reviewup  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //activity_subレイアウトをセット
+        //reviewupレイアウトをセット
         setContentView(R.layout.reviewup);
 
         Button returnButton = findViewById(R.id.return_btn);
