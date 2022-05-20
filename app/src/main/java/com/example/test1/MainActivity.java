@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Rankingに画面遷移
-                Intent intent = new Intent(getApplication(), ranking.class);
+                Intent intent = new Intent(getApplication(), Ranking.class);
                 startActivity(intent);
             }
 

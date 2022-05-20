@@ -3,19 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/ranking.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/read.xml" value="0.264" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/reviewinspection.xml" value="0.1" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Project1-2/app/src/main/res/layout/reviewup.xml" value="0.13269927536231885" />
-        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/ranking.xml" value="0.1" />
       </map>
     </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
   </component>
 </project>
