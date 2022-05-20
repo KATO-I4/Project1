@@ -34,7 +34,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="トップページ"
+        android:text="どこかにゆこう"
         android:textColor="#000000"
         android:textSize="34sp"
         android:visibility="visible"
