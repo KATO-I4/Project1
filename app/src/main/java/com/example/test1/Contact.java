@@ -7,8 +7,6 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 //入力チェック用
-import android.widget.EditText;
-import android.widget.Toast;
 
 public class Contact  extends AppCompatActivity {
 

@@ -20,6 +20,19 @@
         app:layout_constraintVertical_bias="0.544" />
 
     <Button
+        android:id="@+id/sign_in_btn1"
+        android:layout_width="176dp"
+        android:layout_height="60dp"
+        android:text="新規登録"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <Button
         android:id="@+id/sign_in_btn"
         android:layout_width="176dp"
         android:layout_height="60dp"
@@ -30,59 +43,10 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
-
-    <Button
-        android:id="@+id/check_user_btn"
-        android:layout_width="176dp"
-        android:layout_height="60dp"
-        android:text="認証状態の確認"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.244" />
-
-    <Button
-        android:id="@+id/create_user_btn"
-        android:layout_width="176dp"
-        android:layout_height="60dp"
-        android:text="新規登録"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.698" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="192dp"
-        android:layout_height="60dp"
-        android:text="イベントログテスト"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="176dp"
-        android:layout_height="60dp"
-        android:text="ダイヤログテスト"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -125,4 +89,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.432" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
