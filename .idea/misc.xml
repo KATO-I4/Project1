@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/login.xml" value="0.128" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/ranking.xml" value="0.1" />
+        <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/read.xml" value="0.1" />
         <entry key="..\:/Users/ctc2022/AndroidStudioProjects/Test1/app/src/main/res/layout/reviewinspection.xml" value="0.1" />
       </map>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

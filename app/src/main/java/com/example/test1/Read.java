@@ -7,36 +7,31 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Reviewinspection  extends AppCompatActivity {
+public class Read  extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //reviewinspectionレイアウトをセット
-        setContentView(R.layout.reviewinspection);
+        setContentView(R.layout.read);
 
         Button returnButton = findViewById(R.id.return_btn);
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
+
             }
         });
 
-        //レビュー詳細への画面遷移用のボタン
-        Button Button_to_Read = findViewById(R.id.button_to_read);
-
-        //ボタン押下時
-        Button_to_Read.setOnClickListener(new View.OnClickListener() {
+        Button Change_Button1 = findViewById(R.id.change_btn1);
+        Change_Button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //readに画面遷移
-                setContentView(R.layout.read);
-                //Recommendに画面遷移
-                Intent intent = new Intent(getApplication(), Read.class);
+                setContentView(R.layout.activity_main);
             }
-
         });
     }
 

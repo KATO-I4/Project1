@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         changeButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //reviewupに画面遷移
-                Intent intent = new Intent(getApplication(), Reviewup.class);
+                //loginに画面遷移
+                Intent intent = new Intent(getApplication(), Login.class);
                 startActivity(intent);
             }
 
