@@ -48,6 +48,10 @@
             android:name=".MAP"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".Login_OK"
+            android:label="@string/app_name" >
+        </activity>
         //画面遷移追加コード---------------------------------
     </application>
 
