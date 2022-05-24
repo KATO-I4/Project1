@@ -8,14 +8,14 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class Login_OK extends AppCompatActivity {
+public class CustomScannerActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //loginレイアウトをセット
-        setContentView(R.layout.login_ok);
+        setContentView(R.layout.customscanner);
 
 
         Button returnButton = findViewById(R.id.return_btn);
@@ -28,7 +28,7 @@ public class Login_OK extends AppCompatActivity {
 
 
         //レビュー詳細への画面遷移用のボタン
-        Button Button_to_QR = findViewById(R.id.button3);
+        Button Button_to_QR = findViewById(R.id.button_to_scan);
 
         //ボタン押下時
         Button_to_QR.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +36,7 @@ public class Login_OK extends AppCompatActivity {
             public void onClick(View v) {
                 //readに画面遷移
 
-                Intent intent = new Intent(getApplication(), CustomScannerActivity.class);
+                Intent intent = new Intent(getApplication(), Read.class);
                 startActivity(intent);
             }
 

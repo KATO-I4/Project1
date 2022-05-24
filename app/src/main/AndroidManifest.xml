@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test1">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <application
+        android:hardwareAccelerated="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -52,7 +55,14 @@
             android:name=".Login_OK"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".CustomScannerActivity"
+            android:label="@string/app_name" >
+        </activity>
         //画面遷移追加コード---------------------------------
+        //QR用追加コード---------------------------------
+
+        //QR用追加コード---------------------------------
     </application>
 
 </manifest>
