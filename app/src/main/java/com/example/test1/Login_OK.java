@@ -17,6 +17,7 @@ public class Login_OK extends AppCompatActivity {
         //loginレイアウトをセット
         setContentView(R.layout.login_ok);
 
+
         Button returnButton = findViewById(R.id.return_btn);
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +25,7 @@ public class Login_OK extends AppCompatActivity {
                 finish();
             }
         });
+
 
         //レビュー詳細への画面遷移用のボタン
         Button Button_to_QR = findViewById(R.id.button3);
