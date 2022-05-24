@@ -36,7 +36,7 @@ public class CustomScannerActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //readに画面遷移
 
-                Intent intent = new Intent(getApplication(), Read.class);
+                Intent intent = new Intent(getApplication(), Reviewup.class);
                 startActivity(intent);
             }
 
