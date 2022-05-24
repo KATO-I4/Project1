@@ -32,9 +32,9 @@ public class Reviewinspection  extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //readに画面遷移
-                setContentView(R.layout.read);
-                //Recommendに画面遷移
+
                 Intent intent = new Intent(getApplication(), Read.class);
+                startActivity(intent);
             }
 
         });
