@@ -6,120 +6,129 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:padding="5dp"
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="入力してください"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="入力してください"
-        android:gravity="center"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="氏名"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text"
-        android:text="氏名"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
     <EditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text2"
-        android:inputType="text"
         android:background="@drawable/edittext_flame"
         android:hint="近藤・レビュー・太郎"
+        android:inputType="text"
         android:paddingLeft="5dp"
-        />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
     <TextView
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/text3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="メールアドレス"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text"
-        android:text="メールアドレス"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text" />
+
     <EditText
         android:id="@+id/edit_text2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3"
-        android:inputType="textEmailAddress"
         android:background="@drawable/edittext_flame"
         android:hint="enjoy_review@good.com"
+        android:inputType="textEmailAddress"
         android:paddingLeft="5dp"
-        />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
     <TextView
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/text4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="電話番号"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text2"
-        android:text="電話番号"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text2" />
+
     <EditText
         android:id="@+id/edit_text3"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text4"
-        android:inputType="number"
         android:background="@drawable/edittext_flame"
         android:hint="09012345678"
+        android:inputType="number"
         android:paddingLeft="5dp"
-        />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
     <TextView
-        android:paddingTop="5dp"
-        android:paddingLeft="5dp"
         android:id="@+id/text5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="お問い合わせ内容"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text3"
-        android:text="お問い合わせ内容"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text3" />
+
     <EditText
         android:id="@+id/edit_text4"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5"
-        android:inputType="text"
         android:background="@drawable/edittext_flame"
         android:hint="イタリアンだと思ったらメキシコ料理でした。"
+        android:inputType="text"
         android:paddingLeft="5dp"
-        />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text5" />
 
     <Button
         android:id="@+id/return_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
+        android:layout_marginEnd="156dp"
         android:layout_marginBottom="39dp"
         android:text="戻る"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5" />
+        app:layout_constraintTop_toBottomOf="@+id/text5"
+        app:layout_constraintVertical_bias="0.502" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/return_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

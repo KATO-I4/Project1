@@ -59,6 +59,10 @@
             android:name=".CustomScannerActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".Reviewup"
+            android:label="@string/app_name" >
+        </activity>
         //画面遷移追加コード---------------------------------
         //QR用追加コード---------------------------------
 

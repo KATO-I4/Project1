@@ -34,8 +34,7 @@ public class CustomScannerActivity extends AppCompatActivity {
         Button_to_QR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //readに画面遷移
-
+                //Reviewupに画面遷移
                 Intent intent = new Intent(getApplication(), Reviewup.class);
                 startActivity(intent);
             }
