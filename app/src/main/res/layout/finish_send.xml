@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_to_top"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="516dp"
+        android:text="トップ画面に戻る"
+        app:layout_constraintBottom_toTopOf="@+id/return_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="231dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:text="戻る"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="295dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="325dp"
+        android:text="投稿が完了しました"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/return_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

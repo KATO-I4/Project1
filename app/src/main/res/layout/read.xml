@@ -80,18 +80,18 @@
 
     <Button
         android:id="@+id/return_btn"
-        android:layout_width="171dp"
-        android:layout_height="103dp"
+        android:layout_width="134dp"
+        android:layout_height="88dp"
         android:backgroundTint="#5E6A1BF6"
         android:fontFamily="sans-serif"
         android:text="戻る"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <TextView
         android:id="@+id/textView30"
@@ -135,16 +135,15 @@
 
     <Button
         android:id="@+id/change_btn1"
-        android:layout_width="175dp"
-        android:layout_height="102dp"
+        android:layout_width="230dp"
+        android:layout_height="92dp"
         android:text="このお店に\n行く！"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
         app:layout_constraintStart_toEndOf="@+id/return_btn"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.974" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
